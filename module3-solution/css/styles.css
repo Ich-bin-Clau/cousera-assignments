@@ -1,0 +1,90 @@
+body{
+	font-size: 16px;
+	color: #000;
+	font-family: 'Comic Neue', cursive;
+}
+
+/**** HEADER ****/
+#header-nav{
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#header{
+	width: 100%;
+  margin-left: 0;
+}
+
+.container a {
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+  margin-bottom: 15px;
+}
+
+.nav-item a {
+  text-align: center;
+  font-size: 1em;
+}
+/**** END OF HEADER ****/
+
+/************* CONTENT **********/
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #F0B1B1;
+}
+
+#home-tiles a{
+  font-size: 1em;
+}
+
+/****** Dispositivos grandes ******/
+@media (min-width: 1200px){
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+/****** Dispositivos medianos ******/
+@media (min-width: 992px) and (max-width: 1199px){
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+/****** Dispositivos pequeños ******/
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+/****** Dispositivos extra pequeños ******/
+@media (max-width: 767px){
+  
+}
